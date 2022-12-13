@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "astro-77a37",
+    "astro-test": "astro-77a37"
+  },
+  "targets": {},
+  "etags": {}
+}
