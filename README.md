@@ -45,5 +45,15 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
+## 🧞 Deploy on Firebase
+
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `npm install -g firebase-tools`| Get firebasetools                        |
+| `firebase login`               | login with your firebase account         |
+| `firebase init`                | Preview your build locally, before deploying     |
+| `npm run build`                | Build your production site to `./dist/`  |
+In firebase.json, change public to dist [follow here](https://docs.astro.build/ja/guides/deploy/google-firebase/ "firebase deploy")
+
 ## 👀 deployed URL on firebase is here!
 [deploy URL](https://astro-77a37.web.app/ "firebase deploy")
