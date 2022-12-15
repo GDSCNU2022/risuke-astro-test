@@ -51,7 +51,7 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 | :--------------------- | :----------------------------------------------- |
 | `npm install -g firebase-tools`| Get firebasetools                        |
 | `firebase login`               | login with your firebase account         |
-| `firebase init`                | Preview your build locally, before deploying     |
+| `firebase init`                | Preview your build locally, before deploy     |
 | `npm run build`                | Build your production site to `./dist/`  |
 In firebase.json, change public to dist [follow here](https://docs.astro.build/ja/guides/deploy/google-firebase/ "firebase deploy")
 
